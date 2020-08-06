@@ -1,5 +1,5 @@
 
-p {
+p, li{
     font-size: 24px;
     color: plum;
     font-family: fantasy;
@@ -21,7 +21,7 @@ html {
 h1, h2 {
     color: pink;
     font-family: fantasy;
-    font-size: 40px
+    font-size: 30px
 }
 
 ol {
@@ -30,7 +30,7 @@ ol {
 }
 
 #namepar {
-    color:black;
+    color:plum;
 }
 
 .int {
@@ -38,13 +38,36 @@ ol {
     border-width: 8px;
     border-color: white;
     border-style: dotted;
+    overflow: auto;
    
 }
 
 .right {
-    text-align: right;
+    float: right;
 }
 
 .left {
-    width: 500px;
+    float: left;
 }
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* .int2 {
+    padding: 10px;
+    border-width: 8px;
+    border-color: white;
+    border-style: dotted;
+    width: 40%;
+    overflow: auto;
+}
+
